@@ -138,31 +138,34 @@ export default function Header() {
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
                     {[...products, ...callsToAction].map((item) => (
-                      <DisclosureButton
+                      <Link
                         key={item.name}
-                        as="a"
                         to={item.href}
+                        onClick={() => setMobileMenuOpen(false)} // Close menu on link click
                         className="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}
-                      </DisclosureButton>
+                      </Link>
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
                 <Link
                   to="/about"
+                  onClick={() => setMobileMenuOpen(false)} // Close menu on link click
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   About Us
                 </Link>
                 <Link
                   to="/portfolio"
+                  onClick={() => setMobileMenuOpen(false)} // Close menu on link click
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Portfolio
                 </Link>
                 <Link
                   to="/contact"
+                  onClick={() => setMobileMenuOpen(false)} // Close menu on link click
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Contact Us
@@ -171,6 +174,7 @@ export default function Header() {
               <div className="py-6">
                 <Link
                   to="/get-a-quote"
+                  onClick={() => setMobileMenuOpen(false)} // Close menu on link click
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Get a Quote
