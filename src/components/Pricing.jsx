@@ -4,8 +4,8 @@ const tiers = [
   {
     name: 'Basic Plan',
     id: 'tier-basic',
-    href: '#',
-    priceMonthly: '$99',
+    href: '/get-a-quote',
+    priceMonthly: '₦4,500',
     description: "Perfect for small projects or single-room renovations.",
     features: [
       '1 room renovation',
@@ -18,8 +18,8 @@ const tiers = [
   {
     name: 'Premium Plan',
     id: 'tier-premium',
-    href: '#',
-    priceMonthly: '$299',
+    href: '/get-a-quote',
+    priceMonthly: '₦8,000',
     description: 'Ideal for full-home renovations and premium finishes.',
     features: [
       'Full-home renovation',
