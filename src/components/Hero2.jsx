@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Hero({ title, subtitle, description, backgroundImage }) {
     return (
       <div className="relative bg-gray-900">
@@ -20,12 +21,12 @@ export default function Hero({ title, subtitle, description, backgroundImage }) 
             </p>
             {/* Optional Call-to-Action Button */}
             <div className="mt-10">
-              <a
-                href="#"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

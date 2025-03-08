@@ -4,7 +4,9 @@ module.exports = {
       './public/index.html',
     ],
     theme: {
-      extend: {},
+      extend: {
+        HerobackgroundImage: { 'background': "url('./src/assets/image.webp')" }
+      },
     },
     plugins: [],
   };

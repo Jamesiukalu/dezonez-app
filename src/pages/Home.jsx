@@ -9,7 +9,7 @@ import Services from '../components/Services';
 
 export default function Home() {
     return (
-      <div className="p-4">
+      <div className="p-0">
         <Hero />
         <Services />
         <Brands />

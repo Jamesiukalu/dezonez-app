@@ -1,5 +1,5 @@
 'use client'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/LOGO2.png'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
@@ -24,7 +24,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
+    <header className="bg-[#F2F1EF]">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">

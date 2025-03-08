@@ -60,6 +60,6 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
   ];
   
   export const callsToAction = [
-    { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-    { name: 'Contact Us', href: '#', icon: PhoneIcon },
+    { name: 'Watch demo', href: '/portfolio', icon: PlayCircleIcon },
+    { name: 'Contact Us', href: '/contact', icon: PhoneIcon },
   ];

@@ -1,6 +1,7 @@
 import Hero from '../components/Hero2';
 import Stats from '../components/Stats';
 import Newsletter from '../components/Newsletter';
+import Testimonials from '../components/Testimonials';
 
 export default function AboutUs() {
   return (
@@ -34,6 +35,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Testimonials />
       <Stats />
       <Newsletter />
     </div>
