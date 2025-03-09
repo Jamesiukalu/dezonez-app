@@ -52,7 +52,7 @@ export default function Portfolio() {
                   <video
                     controls
                     className="w-full h-48 object-cover"
-                    src={`/src/assets/videos/${video}`}
+                    src={`/assets/videos/${video}`}
                   >
                     Your browser does not support the video tag.
                   </video>
@@ -73,10 +73,10 @@ export default function Portfolio() {
                 <div
                   key={index}
                   className="rounded-lg shadow-lg overflow-hidden cursor-pointer"
-                  onClick={() => setSelectedImage(`/src/assets/videos/${image}`)}
+                  onClick={() => setSelectedImage(`/assets/videos/${image}`)}
                 >
                   <img
-                    src={`/src/assets/videos/${image}`} 
+                    src={`/assets/videos/${image}`} 
                     alt={`Project Image ${index + 1}`}
                     className="w-full h-48 object-cover"
                   />
