@@ -15,7 +15,7 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
       href: '/services/pop-ceilings', 
       icon: ChartPieIcon,
       image: 'https://via.placeholder.com/800x400',
-      video: 'https://www.youtube.com/embed/xyz123',
+      video: 'https://www.youtube.com/embed/StDDuQRO17A',
     },
     { 
       name: 'Electrical Installations', 
@@ -23,7 +23,7 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
       href: '/services/electrical-installations', 
       icon: CursorArrowRaysIcon,
       image: 'https://via.placeholder.com/800x400',
-      video: 'https://www.youtube.com/embed/xyz456',
+      video: 'https://www.youtube.com/embed/pY_6WAuVb7I',
     },
     { 
       name: 'Tiling', 
@@ -31,7 +31,7 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
       href: '/services/tiling', 
       icon: FingerPrintIcon,
       image: 'https://via.placeholder.com/800x400',
-      video: 'https://www.youtube.com/embed/xyz789',
+      video: 'https://www.youtube.com/embed/yZM_o6Z5qmo',
     },
     { 
       name: 'Painting & Wall Finishing', 
@@ -39,7 +39,7 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
       href: '/services/painting-wall-finishing', 
       icon: SquaresPlusIcon,
       image: 'https://via.placeholder.com/800x400',
-      video: 'https://www.youtube.com/embed/xyz012',
+      video: 'https://www.youtube.com/embed/bLbUIevOxzY',
     },
     { 
       name: 'House Interiors', 
@@ -47,7 +47,7 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
       href: '/services/house-interiors', 
       icon: ArrowPathIcon,
       image: 'https://via.placeholder.com/800x400',
-      video: 'https://www.youtube.com/embed/xyz345',
+      video: 'https://www.youtube.com/embed/lQ-8lv1XSRE',
     },
     { 
       name: 'Rough Walls & Terrine', 
@@ -55,7 +55,7 @@ import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
       href: '/services/rough-walls-terrine', 
       icon: ArrowPathIcon,
       image: 'https://via.placeholder.com/800x400',
-      video: 'https://www.youtube.com/embed/xyz678',
+      video: 'https://www.youtube.com/embed/CKeXQRSjk_M',
     },
   ];
   

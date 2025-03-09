@@ -1,4 +1,5 @@
 import logo from "../assets/images/LOGO2.png";
+import oga from "../assets/images/oga.jpg";
 
 export default function Testimonial() {
   return (
@@ -20,7 +21,7 @@ export default function Testimonial() {
           <figcaption className="mt-10">
             <img
               alt="Customer"
-              src="https://media.istockphoto.com/id/1142192548/vector/man-avatar-profile-male-face-silhouette-or-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=DUKuRxK9OINHXt3_4m-GxraeoDDlhNuCbA9hp6FotFE="
+              src={oga}
               className="mx-auto size-10 rounded-full"
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">

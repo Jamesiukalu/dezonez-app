@@ -1,9 +1,11 @@
-import { useParams } from 'react-router-dom';
-import { products } from '../utils/product'; 
+import { useParams } from "react-router-dom";
+import { products } from "../utils/product";
 
 export default function ServicePage() {
   const { serviceId } = useParams(); // Get the serviceId from the URL
-  const service = products.find((product) => product.href === `/services/${serviceId}`);
+  const service = products.find(
+    (product) => product.href === `/services/${serviceId}`
+  );
 
   if (!service) {
     return <div className="text-center py-16">Service not found.</div>;
@@ -13,7 +15,9 @@ export default function ServicePage() {
     <div className="p-4">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-16">
         {/* Service Title */}
-        <h1 className="text-4xl font-bold text-gray-900 text-center">{service.name}</h1>
+        <h1 className="text-4xl font-bold text-gray-900 text-center">
+          {service.name}
+        </h1>
 
         {/* Service Description */}
         <p className="mt-4 text-gray-600 text-center max-w-2xl mx-auto">
@@ -27,10 +31,12 @@ export default function ServicePage() {
               <iframe
                 src={service.video}
                 title={service.name}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
-                className="w-full h-full rounded-lg shadow-lg"
-              />
+                height="520"
+                className="w-full rounded-lg shadow-lg"
+              ></iframe>
             </div>
           ) : (
             <img
