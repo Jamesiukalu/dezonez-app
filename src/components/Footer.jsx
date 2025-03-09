@@ -15,7 +15,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                to="/"
+                to="https://www.facebook.com/share/158Ko1jL1J/"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <span className="sr-only">Facebook</span>
@@ -43,7 +43,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                to="/"
+                to="https://www.instagram.com/dezonezinterior?igsh=MWd6YnFucXcwOTdjbA=="
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <span className="sr-only">Instagram</span>
@@ -90,7 +90,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    to="//services/electrical-installations"
+                    to="/services/electrical-installations"
                     className="text-sm text-gray-300 hover:text-white transition-colors"
                   >
                     Electrical Installations
